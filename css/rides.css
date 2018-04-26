@@ -1,0 +1,487 @@
+*{font-family: 'Istok Web', sans-serif}
+
+* {outline: none !important;}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	overflow-y: scroll;
+    font-family: 'Istok Web', sans-serif;
+}
+
+body {
+	color: #3069b2
+	background: #f1f0f0;
+    overflow: hidden;
+    font-family: 'Istok Web', sans-serif;
+}
+
+p {margin: 0 0 20px 0;	}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a{	
+	color: #4da7ca;
+	-o-transition: all .4s;
+	-ms-transition: all .4s;
+	-moz-transition: all .4s;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+}
+
+a:hover {
+	color: #4290ae;	
+}
+
+
+h1, h2, h3, h4, h5, h6{		
+	margin: 0 0 15px 0;	
+	color: #3A4F52;
+}
+
+.content-block{
+	background:transparent no-repeat center center fixed;
+	-webkit-background-size:100%;
+	-moz-background-size:100%;
+	-o-background-size:100%;
+	background-size:100%;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	overflow:hidden;
+	padding: 60px 0;
+}
+
+.block-body {
+	margin-top: 60px;
+}
+
+.main-map {
+    width: 100%;
+    height: 90vh;
+    padding: 0px 0px;
+    position: relative;
+}
+
+.map-block {
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+.btn{border-radius: 0;}
+
+.sidenav {
+    height: auto;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #3069b2;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#hamburger {
+    color: white;
+    display: none; 
+    font-size:30px;
+    cursor:pointer" 
+}
+
+.btn-success {
+  background-color: rgb(0, 128, 62);
+}
+
+.btn-success:hover {
+    background-color: rgb(0, 128, 62);
+}
+
+.btn-success.focus, .btn-success:focus {
+    background-color: rgb(0, 128, 62);
+}
+
+.btn-danger {
+  background-color: rgb(0, 104, 158);
+}
+
+.btn-danger:hover {
+    background-color: rgb(0, 104, 158);
+}
+
+.btn-danger.focus, .btn-danger:focus {
+    background-color: rgb(0, 104, 158);
+}
+
+.btn-warning {
+  background-color: rgb(35, 31, 32);
+}
+
+.btn-warning:hover {
+    background-color: rgb(35, 31, 32);
+}
+
+.btn-warning.focus, .btn-warning:focus {
+    background-color: rgb(35, 31, 32);
+}
+
+#header-logo-in-sidebar { 
+    display: none;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.modal-header {
+    background-color: #3069b2;
+}
+
+.modal-title {
+    color: white;
+}
+
+.show {
+    padding-left: 20px;
+}
+
+.filter-title {
+    margin-bottom: 5px;
+}
+
+.ride-card > .quick-fact-detail:last-of-type {
+    margin-bottom: 10px;
+}
+
+.heading-legend-cat {
+    font-weight: 700;
+}
+
+#rides-section {
+    background-color: rgba(48,105,178,0.2);
+}
+
+.section-title {
+    color: #3069b2;
+    font-weight: 700;
+}
+
+.ride-title {
+    font-weight: 600;
+}
+
+.heading-legend {
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px !important;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.leaflet-top, .leaflet-bottom {
+   z-index: 300 !important;
+}
+
+.leaflet-map-pane {
+    z-index: 200 !important;
+}
+
+.sidebar {
+    z-index: 300 !important;
+}
+
+.leaflet-sidebar {
+    z-index: 320;    
+}
+
+.ride-card {
+    margin-top: 0px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.rides-card-section {
+    margin-top: 0;
+}
+
+.info-card {
+    margin-top: 0px;
+    background-color: rgba(48,105,178,0.2);
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom-color: rgb(0, 104, 158);
+}
+
+.info-card > h2 {
+    color: rgb(0, 128, 62);
+}
+
+.info-title {
+    color: rgb(237, 28, 36);
+    font-weight: 600;
+}
+
+.logo-card {
+    margin-top: 0px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.easy-ride-card {
+    border-bottom-color: rgb(0, 128, 62);
+}
+
+.easy-ride-card > h2 {
+    color: rgb(0, 128, 62);
+}
+
+.medium-ride-card {
+    border-bottom-color: rgb(0, 104, 158);
+}
+
+.medium-ride-card > h2 {
+    color: rgb(0, 104, 158);
+}
+
+.difficult-ride-card {
+    border-bottom-color: rgb(35, 31, 32);
+}
+
+.difficult-ride-card > h2 {
+    border-bottom-color: rgb(35, 31, 32);
+}
+
+.logo {
+    font-family:'Istok Web', sans-serif;
+    color: #3069b2;
+    font-size: 24px;
+    background: #edda67;
+    padding:5px;
+}
+
+#top-ten-bike-rides-text {
+    padding-left:15px;    
+}
+
+#header.header-wrapper .header-wrapper-inner {
+    //display: table-cell;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+#header .top {
+	position:fixed;
+	top:0;
+	width: 100%;
+	padding: 22px;
+	height: auto;
+	z-index: 500;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;	
+	transition: all .5s;		
+}
+
+#header .logo {
+    text-decoration: none;
+}
+
+#header-logo {
+    background: #edda67;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #3069b2;
+}
+
+#header {	
+	padding: 0 !important;
+}
+
+#header.header-wrapper {
+	background-size: cover;
+    height: 80px;
+	width: 100%;
+	//position: relative;
+	z-index: 1;
+	overflow-x: hidden; 
+}
+
+.btn-group {
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+
+.info {
+    width: 250px;
+    padding: 6px 8px;
+    font: 14px/16px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.fa-caret-left { 
+    color: white;
+}
+
+.label {
+    color: #85807a;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.media-left {
+    padding-left: 15px;
+}
+
+.media {
+    margin-top: 7px;
+}
+
+.menu-links {
+    margin-top: 10px;    
+}
+
+.menu-links > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.toc-ride-button {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 2px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+}
+
+.toc-ride-button:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.sidebar-pane {
+    padding-top: 10px;
+}
+
+
+.sidebar-ride-difficulty {
+   /* color: rgb(71, 183, 23);*/
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 2px 0;
+    padding: 10px 20px;
+}
+
+.easy { background-color: rgb(0, 128, 62);}
+.easy-ride { color: rgba(0, 128, 62, 0.75);}
+.medium { background-color: rgb(0, 104, 158);}
+.medium-ride { color: rgba(0, 104, 158, 0.75);}
+.difficult { background-color: rgb(35, 31, 32);}
+.difficult-ride { color: rgba(35, 31, 32, 0.75);}
+
+#difficult-append, #medium-append, #easy-append {
+    padding: 0px;
+}
+
+@media (max-width: 1024px) {
+  /*  h2 {
+        font-size: 20px;
+    }*/
+    #top-ten-bike-rides-text {
+        max-height: 32px;
+        margin-top: 10px;
+    }
+    .logo {
+        font-size: 18px;
+    }
+    
+    .menu-links > a {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 18px;
+    }
+
+    
+@media (max-width: 768px) {
+    #hamburger {
+        display: block;
+    }
+    
+    .menu-links {
+        display: none;
+    }
+}
+    
+@media (max-width: 480px) {  
+    #header-logo {
+        display: none;
+    }
+    
+    #header-logo-in-sidebar { 
+        display: block;
+    }
+    
+    .map-block {
+        padding-top: 5px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    h4 {
+        margin-left: 15px;
+    }
+
+	#header {
+		background-size: cover;
+	}
+}
